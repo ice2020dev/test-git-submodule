@@ -13,7 +13,7 @@
         ;(main as any)[key] = comp
       }
     }
-    return main as SFCWithInstall<T> & E
+    return main as any
   }
   
   
@@ -32,7 +32,7 @@
         ;(main as any)[key] = comp
       }
     }
-    return main as SFCWithInstall<T> & E
+    return main as any
   }
 import singleLineComponent from './src/index.vue'
 
